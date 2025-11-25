@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>main page</title>
+        <link rel="stylesheet" href="boot/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header_content main_header">
+                    <a href="index.html" class="brand">SHAHD JEWELRY</a>
+                    <nav>
+                        <ul id="link">
+                            <li><a class="btn btn-outline-primary" href="login.html">Sign In</a></li>
+                            <li><a class="btn btn-outline-success" href="register.html">Sign Up</a></li>
+                        </ul>
+                        <ul id="user_info">
+                            <li><a href="#" id="user"></a></li>
+                            <li class="cart">
+                                <i class="fas fa-shopping-cart" id="cart_icon"></i>
+                                <span class="badge" id="cart_count">0</span>
+
+                                <div class="cart_products" id="cart_dropdown" style="display:none;">
+
+                                </div>
+                            </li>
+                            <li><a class="btn btn-outline-danger logout" href="login.html">Log Out</a></li>
+                            <!-- <li><a href="#" id="logout">Log Out</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="container">
+                <div class="products row g-4 mt-3 mb-3"> 
+
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/Retro New Product Ladies Watch Niche High-End Belt Women's Watch Square Dial Guangzhou Watch Gold Watch Hot-selling.jpg" class="card-img-top" alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Leather Strap Watches</h2>
+                                <p>Price : $140</p>
+                                <span>Category : Watches</span>
+                            </div>
+                            <div class="item_action ">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/Gold Emerald Halo Pendant Necklace _ wink of gold Jewelry.jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Gold Pendant Necklace</h2>
+                                <p>Price : $100</p>
+                                <span>Category : Necklace</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/download (31).jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Silver Necklace</h2>
+                                <p>Price : $90</p>
+                                <span>Category : Necklace</span>
+                            </div>
+                            <div class="item_action">
+                                <i class=" favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/18K Rose Gold Infinity Ring_ Sterling Silver Diamond Bridal Ring.jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Rose Gold Ring</h2>
+                                <p>Price : $75</p>
+                                <span>Category : Rings</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/download (32).jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Emerald Cocktail Ring</h2>
+                                <p>Price : $150</p>
+                                <span>Category : Rings</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/Vintage Round Braid Drop Earrings - Gold.jpg" class="card-img-top" alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Classic Hoop Earrings</h2>
+                                <p>Price : $60</p>
+                                <span>Category : Earrings</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/Corda.jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Leather Wrap Bracelet</h2>
+                                <p>Price : $50</p>
+                                <span>Category : Bracelet</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/Gold Chain Stacking Bracelets.jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Gold Chain Bracelet</h2>
+                                <p>Price : $80</p>
+                                <span>Category : Bracelet</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/1pc Metal Punk Classic Oversized Pilot Frame Fashion Glasses For Holiday Gift Outdoor Travel Camping Beach Accessories.jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Aviator Sunglasses</h2>
+                                <p>Price : $130</p>
+                                <span>Category : Sunglasses</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 4 -->
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/download (34).jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Gold Watch</h2>
+                                <p>Price : $200</p>
+                                <span>Category : Watches</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/Essencial ✨.jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Stud Diamond Earrings</h2>
+                                <p>Price : $180</p>
+                                <span>Category : Earrings</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card pb-3 product_item">
+                            <img src="images/Óculos de sol masculinos de armação redonda.jpg" class="card-img-top"  alt="" width="400" height="350" >
+                            <div class="card-body">
+                                <h2>Round Frame Sunglasses</h2>
+                                <p>Price : $120</p>
+                                <span>Category : Sunglasses</span>
+                            </div>
+                            <div class="item_action">
+                                <i class="favorite_icon fas fa-heart" style="margin-right: 10px;"></i>
+                                <a href="#" class="btn add_cart btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+
+            <!-- <div class="container">
+                <div class="products ">
+                    <div class="products_item">
+                        <img src="images/Retro New Product Ladies Watch Niche High-End Belt Women's Watch Square Dial Guangzhou Watch Gold Watch Hot-selling.jpg" width="300" height="200" alt="">
+                        <div class="item_info">
+                            <h2>Leather Strap Watches</h2>
+                            <p>Price : $140</p>
+                            <span>Category : Watches</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/Gold Emerald Halo Pendant Necklace _ wink of gold Jewelry.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Gold Pendant Necklace</h2>
+                            <p>Price : $100</p>
+                            <span>Category : Necklace</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/download (31).jpg" alt="">
+                        <div class="item_info">
+                            <h2>Silver Necklace</h2>
+                            <p>Price : $90</p>
+                            <span>Category : Necklace</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/18K Rose Gold Infinity Ring_ Sterling Silver Diamond Bridal Ring.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Rose Gold Ring</h2>
+                            <p>Price : $75</p>
+                            <span>Category : Rings</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/download (32).jpg" alt="">
+                        <div class="item_info">
+                            <h2>Emerald Cocktail Ring</h2>
+                            <p>Price : $150</p>
+                            <span>Category : Rings</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/Vintage Round Braid Drop Earrings - Gold.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Classic Hoop Earrings</h2>
+                            <p>Price : $60</p>
+                            <span>Category : Earrings</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/Corda.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Leather Wrap Bracelet</h2>
+                            <p>Price : $50</p>
+                            <span>Category : Bracelet</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/Gold Chain Stacking Bracelets.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Gold Chain Bracelet</h2>
+                            <p>Price : $80</p>
+                            <span>Category : Bracelet</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/1pc Metal Punk Classic Oversized Pilot Frame Fashion Glasses For Holiday Gift Outdoor Travel Camping Beach Accessories.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Aviator Sunglasses</h2>
+                            <p>Price : $130</p>
+                            <span>Category : Sunglasses</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/download (34).jpg" alt="">
+                        <div class="item_info">
+                            <h2>Gold Watch</h2>
+                            <p>Price : $200</p>
+                            <span>Category : Watches</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/Essencial ✨.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Stud Diamond Earrings</h2>
+                            <p>Price : $180</p>
+                            <span>Category : Earrings</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="products_item">
+                        <img src="images/Óculos de sol masculinos de armação redonda.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Round Frame Sunglasses</h2>
+                            <p>Price : $120</p>
+                            <span>Category : Sunglasses</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="products_item">
+                        <img src="images/2 peças de tornozeleira Faux Pearl Decor.jpg" alt="">
+                        <div class="item_info">
+                            <h2>Anklet</h2>
+                            <p>Price : $90</p>
+                            <span>Category : Anklets</span>
+                        </div>
+                        <div class="item_action">
+                            <i class="far fa-heart"></i>
+                            <button class="add_to_cart">Add to Cart</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> -->
+
+        </section>
+
+
+
+
+
+
+
+
+   
+
+
+
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

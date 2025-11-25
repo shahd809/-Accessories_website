@@ -1,0 +1,296 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 80px;
+    background-color: rgb(219, 215, 215);
+    padding: 10px 0px;
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.header_content  .brand{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+nav li a {
+    display: block;
+    
+    min-width: 80px;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+/* ///////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////// */
+/* nav ul#user_info li i{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav ul#user_info li{
+    margin: 0px 10px;
+    position: relative;
+}
+
+nav ul#user_info li .badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    top: 3px;
+    right:50px;
+}  */
+
+
+/* /////////////////////////////////////// */
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    
+}
+
+/* Header */
+header {
+    height: 80px; /* ارتفاع ثابت */
+    background-color: #007bff;
+    padding: 0 20px; /* بس padding أفقي */
+    display: flex;
+    align-items: center; /* يحط كل العناصر في منتصف الارتفاع */
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* كل العناصر على نفس الخط عمودياً */
+    width: 100%;
+    gap: 20px;
+}
+
+
+
+/* Brand */
+.header_content .brand {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Links (Sign In / Sign Up) */
+nav ul#link {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+nav ul#link li a {
+    color: white;
+    border: 1px solid white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul#link li a:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+/* User info & Cart */
+nav ul#user_info {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul#user_info li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    flex-shrink: 0;  
+}
+
+nav ul#user_info li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    white-space: nowrap; 
+}
+
+nav ul#user_info li a:hover {
+    text-decoration: underline;
+}
+
+/* Cart Icon */
+nav ul#user_info li i {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    flex-shrink: 0; 
+}
+
+nav ul#user_info li .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cart Dropdown */
+#cart_dropdown {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 250px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none; /* يبقى مخفي لحد ما نعمل toggle */
+    z-index: 100;
+}
+
+/* Responsive */
+/* @media (max-width: 768px) {
+    .header_content {
+        flex-direction: row; 
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    nav ul#link,
+    nav ul#user_info {
+        flex-direction: row; 
+        gap: 20px;
+    }
+} */
+
+
+.sec_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 45%;
+    background-color: rgb(188, 192, 192);
+    padding: 20px;
+}
+.sec_form h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: black;
+}
+.sec_form form input{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    height: 30px;
+    border: 1px solid white;
+    padding: 5px;
+    outline: none;
+    
+}
+.sec_form form input[type="submit"]:hover{
+    opacity: 0.7;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////// */
+.products{
+    text-align: center;
+}
+.products h2{
+    font-size: 22px;
+    
+}
+.card{
+    transition: 0.5s;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.favorite_icon{
+        cursor: pointer;
+    transition: 0.3s;
+
+}
+.favorite_icon.red{
+    color: red;
+}
